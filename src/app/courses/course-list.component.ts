@@ -5,8 +5,6 @@ import { Course } from './course';
   selector: 'app-course-list',
   templateUrl: './course-list.component.html',
 })
-
-
 export class CourseListComponent implements OnInit {
   courses: Course[] = [];
   ngOnInit(): void {
